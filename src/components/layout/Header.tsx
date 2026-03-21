@@ -32,19 +32,19 @@ export default function Header() {
 
         {/* 🔹 CENTER (DESKTOP MENU) */}
         <div className="hidden md:flex justify-center gap-8 text-sm flex-1">
-          <Link href="/" className="hover:text-white text-blue/70">
+          <Link href="/" className="hover:text-white text-Red/70">
             Início
           </Link>
 
-          <Link href="/campaigns" className="hover:text-pink text-blue/70">
+          <Link href="/campaigns" className="hover:text-White text-red/70">
             Campanhas
           </Link>
 
-          <Link href="/infrastructure" className="hover:text-ocean text-blue/70">
+          <Link href="/infrastructure" className="hover:text-White text-red/70">
             Infraestruturas
           </Link>
 
-          <Link href="/services" className="hover:text-yellow text-blue/70">
+          <Link href="/services" className="hover:text-White text-red/70">
             Serviços
           </Link>
 
@@ -59,7 +59,7 @@ export default function Header() {
           {/* DASHBOARD (DESKTOP) */}
           <Link
             href="/dashboard"
-            className="hidden md:block px-4 py-2 rounded-lg bg-pink text-black font-semibold"
+            className="hidden md:block px-4 py-2 rounded-lg bg-pink text-red font-semibold"
           >
             Dashboard
           </Link>
