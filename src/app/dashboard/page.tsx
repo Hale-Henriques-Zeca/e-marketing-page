@@ -10,7 +10,7 @@ export default function DashboardPage() {
       {/* CONTEÚDO */}
       <div className="space-y-6">
         {/* CARD PRINCIPAL */}
-        <section className="rounded-3xl bg-[#0b1220]/90 border border-white/10 p-5 backdrop-blur">
+        <section className="rounded-3xl bg-[#E11D8A]/90 border border-white/10 p-5 backdrop-blur">
           <div className="flex items-center justify-between">
             <div>
               <div className="text-sm text-ekd-pearl/70">Conta Interna</div>
@@ -45,7 +45,7 @@ export default function DashboardPage() {
         <StatsStrip />
         <QuickActions />
 
-        <section className="rounded-3xl bg-[#0b1220]/90 border border-white/10 p-5 backdrop-blur">
+        <section className="rounded-3xl bg-[#0077B6]/90 border border-white/10 p-5 backdrop-blur">
           <div className="text-sm font-semibold">Notificações</div>
 
           <div className="mt-4 space-y-3">

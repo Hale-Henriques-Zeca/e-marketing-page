@@ -15,7 +15,7 @@ export default function VipPage() {
 
       <div className="space-y-3">
         {tiers.map((t) => (
-          <div key={t.name} className="rounded-3xl bg-[#0b1220] border border-white/10 p-5">
+          <div key={t.name} className="rounded-3xl bg-[#0077B6] border border-white/10 p-5">
             <div className="flex items-center justify-between">
               <div className="font-extrabold">{t.name}</div>
               <div className="text-ekd-ocean font-semibold">{t.price} MZN</div>

@@ -6,7 +6,7 @@ export default function TaskPage() {
         Aqui entra o feed de conteúdos/campanhas para participação (views, retenção, feedback, etc.).
       </p>
 
-      <div className="rounded-3xl bg-[#0b1220] border border-white/10 p-5">
+      <div className="rounded-3xl bg-[#0077B6] border border-white/10 p-5">
         <div className="text-sm font-semibold">Lista (mock)</div>
         <div className="mt-3 space-y-3">
           {["Campanha 01 — Institucional", "Campanha 02 — Evento", "Campanha 03 — Lançamento"].map((t) => (

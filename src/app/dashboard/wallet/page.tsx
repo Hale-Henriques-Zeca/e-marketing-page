@@ -3,7 +3,7 @@ export default function WalletPage() {
     <div className="space-y-4">
       <h1 className="text-xl font-extrabold">Wallet</h1>
 
-      <div className="rounded-3xl bg-[#0b1220] border border-white/10 p-5">
+      <div className="rounded-3xl bg-[#F5C400] border border-white/10 p-5">
         <div className="grid grid-cols-2 gap-4">
           <div className="rounded-2xl bg-white/5 border border-white/10 p-4">
             <div className="text-xs text-ekd-pearl/60">Saldo de Comissão</div>
@@ -26,7 +26,7 @@ export default function WalletPage() {
         </div>
       </div>
 
-      <div className="rounded-3xl bg-[#0b1220] border border-white/10 p-5">
+      <div className="rounded-3xl bg-[#F5C400] border border-white/10 p-5">
         <div className="text-sm font-semibold">Registos</div>
         <div className="mt-3 space-y-3">
           {[

@@ -18,7 +18,7 @@ export default function BottomNav() {
   return (
     <nav className="fixed bottom-4 left-0 right-0 z-50">
       <div className="max-w-md mx-auto px-4">
-        <div className="rounded-3xl bg-[#0b1220]/90 backdrop-blur border border-white/10 px-3 py-3 flex items-center justify-between">
+        <div className="rounded-3xl bg-[#1FA971]/90 backdrop-blur border border-white/10 px-3 py-3 flex items-center justify-between">
           {tabs.map((t) => {
             const active = path === t.href;
             return (

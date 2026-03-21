@@ -11,7 +11,7 @@ export default function DashboardTopBar() {
   }
 
   return (
-    <header className="sticky top-0 z-50 bg-[#05070d]/80 backdrop-blur border-b border-white/10">
+    <header className="sticky top-0 z-50 bg-[#0077B6]/80 backdrop-blur border-b border-white/10">
       <div className="max-w-md mx-auto px-4 h-16 flex items-center justify-between">
         <div className="font-extrabold tracking-tight">
           <span className="text-ekd-pink">E-</span>Marketing
