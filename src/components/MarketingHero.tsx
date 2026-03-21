@@ -37,7 +37,7 @@ export default function MarketingHero() {
             {/* 🔥 LOGO TOPO */}
   <MarketingLogo />
   
-            <h1 className="text-5xl md:text-6xl font-extrabold text-ekd-pink leading-tight">
+           
 
               {/* TÍTULO */}
 <motion.h1
@@ -51,7 +51,7 @@ export default function MarketingHero() {
  
 </motion.h1>
               
-            </h1>
+           
 
             <p className="mt-8 max-w-xl text-lg text-#0077B6">
                <span style={{ color: "#0077B6" }}> A divisão oficial de Marketing & Campaigns da EdenKingDom
