@@ -19,8 +19,8 @@ export default function Header() {
             <Image
               src="/branding/e-marketing/logo.png"
               alt="E-Marketing"
-              width={34}
-              height={34}
+              width={64}
+              height={64}
               className="rounded-md"
               priority
             />
@@ -36,15 +36,15 @@ export default function Header() {
             Início
           </Link>
 
-          <Link href="/campaigns" className="hover:text-White text-red/70">
+          <Link href="/campaigns" className="hover:text-pink text-red/70">
             Campanhas
           </Link>
 
-          <Link href="/infrastructure" className="hover:text-White text-red/70">
+          <Link href="/infrastructure" className="hover:text-ocean text-red/70">
             Infraestruturas
           </Link>
 
-          <Link href="/services" className="hover:text-White text-red/70">
+          <Link href="/services" className="hover:text-yellow text-red/70">
             Serviços
           </Link>
 
@@ -59,7 +59,7 @@ export default function Header() {
           {/* DASHBOARD (DESKTOP) */}
           <Link
             href="/dashboard"
-            className="hidden md:block px-4 py-2 rounded-lg bg-pink text-red font-semibold"
+            className="hidden md:block px-4 py-2 rounded-lg bg-pink text-black font-semibold"
           >
             Dashboard
           </Link>
@@ -90,26 +90,26 @@ export default function Header() {
               Início
             </Link>
 
-            <Link href="/campaigns" onClick={() => setOpen(false)} className="text-pink">
+            <Link href="/campaigns" onClick={() => setOpen(false)} className="text-white/80 hover:text-blue">
               Campanhas
             </Link>
 
-            <Link href="/infrastructure" onClick={() => setOpen(false)} className="text-ocean">
+            <Link href="/infrastructure" onClick={() => setOpen(false)} className="text-white/80 hover:text-blue">
               Infraestruturas
             </Link>
 
-            <Link href="/services" onClick={() => setOpen(false)} className="text-yellow">
+            <Link href="/services" onClick={() => setOpen(false)} className="text-white/80 hover:text-blue">
               Serviços
             </Link>
 
-            <Link href="/about" onClick={() => setOpen(false)} className="text-white/80">
+            <Link href="/about" onClick={() => setOpen(false)} className="text-white/80 hover:text-blue">
               Sobre
             </Link>
 
             <Link
               href="/dashboard"
               onClick={() => setOpen(false)}
-              className="mt-4 px-6 py-2 rounded-lg bg-pink text-black font-semibold"
+              className="mt-4 px-6 py-2 rounded-lg bg-pink text-white font-semibold"
             >
               Dashboard
             </Link>
