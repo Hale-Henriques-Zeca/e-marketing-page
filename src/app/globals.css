@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+/* 🎨 CORES OFICIAIS */
+:root {
+  --pink: #E11D8A;
+  --yellow: #F5C400;
+  --ocean: #0077B6;
+  --brown: #5A3E2B;
+  --black: #0A0A0A;
+  --pearl: #F5F5F5;
+}
+
+/* 🌍 BASE GLOBAL */
+body {
+  background-color: var(--pearl);
+  color: var(--black);
+  font-family: Arial, Helvetica, sans-serif;
+}
