@@ -19,8 +19,8 @@ export default function Header() {
             <Image
               src="/branding/e-marketing/logo.png"
               alt="E-Marketing"
-              width={64}
-              height={64}
+              width={34}
+              height={34}
               className="rounded-md"
               priority
             />
