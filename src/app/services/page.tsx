@@ -1,8 +1,8 @@
 export default function ServicesPage() {
   return (
     <section className="min-h-screen bg-ekd-black text-ekd-pearl px-8 py-32 max-w-5xl mx-auto">
-      <h1 className="text-4xl font-bold text-ekd-yellow mb-6">
-        Serviços E-Marketing - EdenKingDom Corporation
+      <h1 className="text-2xl font-bold text-ekd-yellow mb-6">
+        Serviços E-Marketing 
       </h1>
 
       <p className="mb-6">
