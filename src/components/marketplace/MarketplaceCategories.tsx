@@ -1,14 +1,14 @@
 "use client";
 
 import Link from "next/link";
-import { Shirt, Smartphone, Sparkles, Watch, Home } from "lucide-react";
+import { Shirt, Smartphone, Sparkles, Watch, Crown } from "lucide-react";
 
 const categories = [
   { name: "Moda", icon: Shirt, href: "/marketplace/category/fashion", color: "text-blue-400", bg: "bg-blue-400/10" },
   { name: "Eletrónicos", icon: Smartphone, href: "/marketplace/category/electronics", color: "text-purple-400", bg: "bg-purple-400/10" },
   { name: "Beleza", icon: Sparkles, href: "/marketplace/category/beauty", color: "text-pink-400", bg: "bg-pink-400/10" },
   { name: "Acessórios", icon: Watch, href: "/marketplace/category/accessories", color: "text-amber-400", bg: "bg-amber-400/10" },
-  { name: "Casa", icon: Home, href: "/marketplace/category/home", color: "text-emerald-400", bg: "bg-emerald-400/10" },
+{ name: "Marcas", icon: Crown, href: "/marketplace/brands", color: "text-amber-400", bg: "bg-amber-400/10" },
 ];
 
 export default function MarketplaceCategories() {
