@@ -8,8 +8,7 @@ import MarketingLogo from "../components/MarketingLogo";
 export default function MarketingHero() {
   return (
     <main className="relative overflow-hidden text-ekd-pearl">
-
-     {/* 🎬 FUNDO CINEMATOGRÁFICO */}
+      {/* 🎬 FUNDO CINEMATOGRÁFICO */}
       <div className="absolute inset-0">
         {/* Base preta */}
         <div className="absolute inset-0 bg-ekd-black" />
@@ -26,63 +25,92 @@ export default function MarketingHero() {
 
       {/* CONTEÚDO */}
       <section className="relative z-10 max-w-7xl mx-auto px-8 py-32">
-
-        
-
         {/* GRID HERO */}
         <div className="grid grid-cols-1 lg:grid-cols-[1.2fr_0.8fr] gap-16 items-start">
-
+          
           {/* 🧠 BLOCO INSTITUCIONAL (ESQUERDA) */}
           <div>
             {/* 🔥 LOGO TOPO */}
-  <MarketingLogo />
-  
-           
+            <MarketingLogo />
 
-              {/* TÍTULO */}
-<motion.h1
-  initial={{ opacity: 0, y: -30 }}
-  animate={{ opacity: 1, y: 0 }}
-  transition={{ duration: 0.6, delay: 0.3 }}
-  className="text-4xl md:text-3xl font-extrabold text-ekd-pink leading-tight mb-8"
->
-  <span style={{ color: "#1FA971" }}>EdenKingDom </span>
-  <span style={{ color: "#D4AF37" }}>Marketing </span>
- 
-</motion.h1>
-              
-           
+            {/* TÍTULO */}
+            <motion.h1
+              initial={{ opacity: 0, y: -30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.3 }}
+              className="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight mb-8 mt-6 tracking-tight"
+            >
+              <span style={{ color: "#1FA971" }}>EdenKingDom </span>
+              <span style={{ color: "#D4AF37" }}>Marketing </span>
+            </motion.h1>
 
-            <p className="mt-8 max-w-xl text-lg text-#0077B6">
-               <span style={{ color: "#0077B6" }}> A divisão oficial de Marketing & Campaigns da EdenKingDom
-              Corporation. Expansão global de marcas, eventos, conteúdos,
-              infraestruturas e presença institucional. </span>
-            </p>
+            <motion.p 
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ duration: 0.6, delay: 0.4 }}
+              className="mt-8 max-w-xl text-lg lg:text-xl font-light"
+            >
+              <span style={{ color: "#0077B6" }}>
+                A divisão oficial de Marketing & Campaigns da EdenKingDom Group. Expansão global de marcas, eventos, conteúdos, infraestruturas e presença institucional.
+              </span>
+            </motion.p>
 
-            {/* BOTÕES */}
-            <div className="mt-10 flex flex-wrap gap-4">
+            {/* BOTÕES PREMIUM */}
+            <motion.div 
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.5 }}
+              className="mt-12 flex flex-col sm:flex-row flex-wrap gap-4"
+            >
+              {/* Botão Primário (Destaque) */}
               <Link
                 href="/campaigns"
-                className="bg-ekd-pink hover:bg-ekd-pink/90 transition px-8 py-4 rounded-xl font-semibold"
+                className="group relative flex items-center justify-center gap-3 bg-gradient-to-r from-ekd-pink to-pink-600 px-8 py-4 rounded-2xl font-bold text-white shadow-[0_0_20px_rgba(225,29,138,0.3)] hover:shadow-[0_0_30px_rgba(225,29,138,0.6)] hover:-translate-y-1 transition-all duration-300"
               >
-                Explorar Campanhas ↘️
+                Explorar Campanhas
+                <svg 
+                  className="w-5 h-5 group-hover:translate-x-1 group-hover:translate-y-1 transition-transform duration-300" 
+                  fill="none" 
+                  viewBox="0 0 24 24" 
+                  stroke="currentColor"
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </Link>
+
+              {/* Botões Secundários (Glassmorphism & Outline) */}
+              <Link
+                href="/marketplace"
+                className="flex items-center justify-center px-8 py-4 rounded-2xl border border-ekd-ocean/40 bg-white/5 backdrop-blur-sm text-ekd-ocean font-semibold hover:bg-ekd-ocean hover:text-ekd-black hover:scale-[1.02] transition-all duration-300"
+              >
+                Marketplace
               </Link>
 
               <Link
                 href="/infrastructure"
-                className="border border-ekd-ocean text-ekd-ocean hover:bg-ekd-ocean hover:text-ekd-black transition px-8 py-4 rounded-xl"
+                className="flex items-center justify-center px-8 py-4 rounded-2xl border border-ekd-ocean/40 bg-white/5 backdrop-blur-sm text-ekd-ocean font-semibold hover:bg-ekd-ocean hover:text-ekd-black hover:scale-[1.02] transition-all duration-300"
               >
                 Ver Infraestruturas
               </Link>
-            </div>
+
+              <Link
+                href="/printing"
+                className="flex items-center justify-center px-8 py-4 rounded-2xl border border-ekd-ocean/40 bg-white/5 backdrop-blur-sm text-ekd-ocean font-semibold hover:bg-ekd-ocean hover:text-ekd-black hover:scale-[1.02] transition-all duration-300"
+              >
+                Visite a Serigrafia
+              </Link>
+            </motion.div>
           </div>
 
           {/* 📊 PAINEL PÚBLICO (DIREITA) */}
-          <div className="lg:pt-12">
-            
+          <motion.div 
+            initial={{ opacity: 0, x: 20 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.8, delay: 0.6 }}
+            className="lg:pt-12"
+          >
             <MarketingOverview />
-          </div>
-
+          </motion.div>
         </div>
       </section>
     </main>

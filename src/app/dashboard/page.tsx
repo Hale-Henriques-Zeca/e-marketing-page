@@ -1,3 +1,5 @@
+"use client";
+
 import StatsStrip from "@/components/dashboard/StatsStrip";
 import QuickActions from "@/components/dashboard/QuickActions";
 
@@ -11,6 +13,7 @@ export default function DashboardPage() {
       <div className="space-y-6">
         {/* CARD PRINCIPAL */}
         <section className="rounded-3xl bg-[#E11D8A]/90 border border-white/10 p-5 backdrop-blur">
+          
           <div className="flex items-center justify-between">
             <div>
               <div className="text-sm text-ekd-pearl/70">Conta Interna</div>

@@ -25,7 +25,7 @@ export default function Header() {
               priority
             />
             <span className="text-lg font-bold text-blue">
-              E-Marketing
+              eMarketing
             </span>
           </Link>
         </div>
@@ -47,6 +47,20 @@ export default function Header() {
           <Link href="/services" className="hover:text-yellow text-red/70">
             Serviços
           </Link>
+
+          <Link
+  href="/marketplace"
+  className="hover:text-yellow text-red/70"
+>
+  Marketplace
+</Link>
+
+<Link
+  href="/seller"
+  className="hover:text-yellow text-red/70"
+>
+  Vendas
+</Link>
 
           <Link href="/about" className="hover:text-white text-blue/70">
             Sobre
@@ -101,6 +115,22 @@ export default function Header() {
             <Link href="/services" onClick={() => setOpen(false)} className="text-white/80 hover:text-blue">
               Serviços
             </Link>
+
+            <Link
+  href="/marketplace"
+  onClick={() => setOpen(false)}
+  className="text-white/80 hover:text-blue"
+>
+  Marketplace
+</Link>
+
+<Link
+  href="/seller"
+  onClick={() => setOpen(false)}
+  className="text-white/80 hover:text-blue"
+>
+  Centro de Vendas
+</Link>
 
             <Link href="/about" onClick={() => setOpen(false)} className="text-white/80 hover:text-blue">
               Sobre

@@ -30,7 +30,7 @@ export default function MarketingLogo() {
   transition={{ duration: 0.6, delay: 0.3 }}
   className="text-4xl md:text-6xl font-extrabold text-center mb-8"
 >
-  <span style={{ color: "#E11D8A" }}>E-Marketing  </span>
+  <span style={{ color: "#E11D8A" }}>eMarketing  </span>
  
  
 </motion.h1>
